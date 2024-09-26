@@ -1,0 +1,34 @@
+{
+    "text": {
+        "txt1":"Satın aldığınız bu ürünün, özel reçetesi ve zorlu koşullara karşı yüksek dayanımlı kenar tasarımı sayesinde",
+        "txt2":"Ömür Boyu Kenar Çıtlama Garantisi",
+        "txt3":"bulunmaktadır.",
+        "success":"Başarılı",
+        "back":"Geri",
+        "thanks":"TEŞEKKÜRLER",
+        "thanks2":"Ürününüz",
+        "thanks3":"ÖMÜR BOYU KENAR ÇITLAMA GARANTİSİ",
+        "thanks4":"altında.",
+        "thanksMessage":"Mükemmel bir yeme içme deneyimi sunmaya çözüm ortaklığı yapmak ve keyifli anlarınıza eşlik etmekten mutluluk duyarız."
+    },
+    "muiElements": {
+        "nameSurname": "İsim Soyisim",
+        "mail": "E-Mail",
+        "phone": "Telefon",
+        "country": "Ülke",
+        "job": "Meslek",
+        "description":"Açıklama",
+        "company": "Şirket İsmi",
+        "btnText": "Gönder",
+        "GDPR": " KVKK politikasını okudum ve kabul ediyorum.",
+        "subscription": "Kampanyalardan haberdar olmak için elektronik iletileri almayı kabul ediyorum.",
+        "click":"Tıkla"
+    },
+    "jobs": {
+        "businessowner": "İşletme Sahibi",
+        "chef": "Şef",
+        "f&b": "F&B",
+        "architect": "Mimar",
+        "other": "Diğer"
+    }
+}
