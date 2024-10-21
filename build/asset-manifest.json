@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3103c466.css",
+    "main.js": "/static/js/main.07147b7e.js",
+    "static/media/pattern1.jpg": "/static/media/pattern1.08284076b96c62186d54.jpg",
+    "static/media/TesukkurImg.png": "/static/media/TesukkurImg.d5a3813c93e4cb853752.png",
+    "static/media/EdgeChip_LandingPage_TR.gif": "/static/media/EdgeChip_LandingPage_TR.724820558c0f4ce755a8.gif",
+    "static/media/EdgeChip_LandingPage_EN.gif": "/static/media/EdgeChip_LandingPage_EN.3c323782e94c3bf7873f.gif",
+    "static/media/EdgeChip-Logo-TR.gif": "/static/media/EdgeChip-Logo-TR.d72f7472593c8e8f3454.gif",
+    "static/media/EdgeChip-Logo-EN.gif": "/static/media/EdgeChip-Logo-EN.e751954a7f377cd3e948.gif",
+    "static/media/GDPR.pdf": "/static/media/GDPR.72880974defc20385f7b.pdf",
+    "static/media/logobonna_b.png": "/static/media/logobonna_b.400d9be2a40011d88537.png",
+    "static/media/logobonna_w.png": "/static/media/logobonna_w.13dbfffab19d4d95d459.png",
+    "static/media/404.png": "/static/media/404.a701b2f217e6d7dcca54.png",
+    "static/media/lock.png": "/static/media/lock.d009ed9134b79956722d.png",
+    "static/media/turkey.png": "/static/media/turkey.6f8f999abbc25de0beb5.png",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "main.3103c466.css.map": "/static/css/main.3103c466.css.map",
+    "main.07147b7e.js.map": "/static/js/main.07147b7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3103c466.css",
+    "static/js/main.07147b7e.js"
+  ]
+}

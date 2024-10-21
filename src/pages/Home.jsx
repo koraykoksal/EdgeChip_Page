@@ -3,7 +3,8 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { colors, fontStyle, homePageStyle, modalStyles } from '../styles/globalStlye'
 // import landingImg from "../assets/img/landingImg.png"
-import EdgeChip from "../assets/img/EdgeChip.gif"
+import EdgeChipTR from "../assets/img/EdgeChip_LandingPage_TR.gif"
+import EdgeChipEN from "../assets/img/EdgeChip_LandingPage_EN.gif"
 import bonnaLogo from "../assets/img/logobonna_b.png"
 import msa_bonna_logo from "../assets/img/msa_bonna_logo.png"
 import { countryInfo, jobType } from '../helper/data'
@@ -165,11 +166,11 @@ export const Home = () => {
   };
 
 
-
   return (
 
-    <div>
-
+    <>
+    <div id='mobileError'></div>
+    <div id='homePage'>
 
       <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
 
@@ -178,13 +179,13 @@ export const Home = () => {
 
           <CardMedia
             component='img'
-            image={EdgeChip}
+            image={ i18n.language === "tr"  ? EdgeChipTR:EdgeChipEN}
             loading='lazy'
             sx={{
               objectFit: 'cover',  // Resmi alanına sığdırır, gerekirse keser
               height: {
-                xs: '40vh',  // Ekran küçükse (mobile) yükseklik %40
-                sm: '50vh',  // Ekran biraz daha büyükse %50
+                xs: '100%',  // Ekran küçükse (mobile) yükseklik %40
+                sm: '100%',  // Ekran biraz daha büyükse %50
                 md: '100%',  // Orta büyüklükteki ekranlarda %100
                 lg: '100%',  // Büyük ekranlarda %100
               },
@@ -621,6 +622,6 @@ export const Home = () => {
 
 
     </div>
-
+    </>
   )
 }
